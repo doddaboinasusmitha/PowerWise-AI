@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 function Welcome() {
+  const navigate = useNavigate();
+
   return (
     <div className="welcome-container">
       <motion.h1
@@ -27,6 +30,7 @@ function Welcome() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.8, delay: 0.8 }}
+        onClick={() => navigate("/dashboard")}
       >
         Get Started
       </motion.button>
