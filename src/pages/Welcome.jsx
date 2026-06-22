@@ -30,7 +30,7 @@ function Welcome() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.8, delay: 0.8 }}
-        onClick={() => navigate("/dashboard")}
+        onClick={() => navigate("/login")}
       >
         Get Started
       </motion.button>

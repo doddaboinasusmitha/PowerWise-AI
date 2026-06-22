@@ -92,3 +92,71 @@
   color: white;
   cursor: pointer;
 }
+
+/* ============================= */
+/* 📱 RESPONSIVE DESIGN - SAFE */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .login-card {
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  .login-card h1 {
+    font-size: 26px;
+  }
+
+  .login-card h2 {
+    font-size: 20px;
+  }
+
+  .login-card p {
+    font-size: 14px;
+  }
+
+  .login-card input {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .login-card button {
+    padding: 12px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    width: 92%;
+    padding: 22px;
+    border-radius: 18px;
+  }
+
+  .login-card h1 {
+    font-size: 22px;
+  }
+
+  .login-card h2 {
+    font-size: 18px;
+  }
+
+  .login-card p {
+    font-size: 13px;
+  }
+
+  .login-card input {
+    padding: 11px;
+    font-size: 13px;
+  }
+
+  .login-card button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .login-card span {
+    font-size: 13px;
+  }
+}
