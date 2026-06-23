@@ -1,16 +1,125 @@
-# React + Vite
+# ⚡ PowerWise AI - Smart Electricity Bill Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+PowerWise AI is a full-stack web application that I developed to help users understand and manage their electricity consumption. The application allows users to add their monthly electricity bills, view usage trends, and get a predicted bill amount using a Machine Learning model.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project combines a React frontend, a Flask-based Python backend, and a Machine Learning model to provide useful insights for electricity consumption and energy management.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Add and manage monthly electricity bill records
+- Visualize electricity usage and bill trends using interactive charts
+- Predict electricity bills using a Machine Learning model
+- Compare actual bills with AI predicted bills
+- Get smart energy-saving insights based on consumption patterns
+- View previous electricity records in a simple dashboard
+- Responsive user interface with smooth animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+### Frontend
+
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Axios
+- Framer Motion
+- Recharts
+
+### Backend
+
+- Python
+- Flask
+- Flask-CORS
+
+### Machine Learning
+
+- Scikit-learn
+- Linear Regression
+
+---
+
+## How It Works
+
+User enters electricity bill details  
+↓  
+React frontend sends the data to the Flask API  
+↓  
+Flask backend processes the request and sends data to the Machine Learning model  
+↓  
+The model predicts the expected electricity bill  
+↓  
+PowerWise AI compares the actual and predicted bill and provides insights
+
+---
+
+## Challenges I Faced
+
+One of the major challenges I faced was connecting the frontend and backend after deployment. I solved it by configuring API communication properly using environment variables and ensuring smooth connection between Vercel and Render.
+
+---
+
+## Project Links
+
+### Live Application
+
+Frontend:
+https://power-wise-ai-six.vercel.app/
+
+Backend API:
+https://powerwise-ai-backend.onrender.com
+
+### GitHub Repository
+
+https://github.com/doddaboinasusmitha/PowerWise-AI
+
+---
+
+## Installation and Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/doddaboinasusmitha/PowerWise-AI.git
+```
+
+### Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+## Future Improvements
+
+- Add user authentication and personalized accounts
+- Integrate a cloud database for storing electricity records
+- Improve the ML model with more training data
+- Add more advanced AI-based energy-saving recommendations
+
+---
+
+## Developer
+
+Developed by **Susmitha**  
+B.Tech AIML Student (Artificial Intelligence & Machine Learning)
+
+---
+
+Thank you for visiting my project. I built PowerWise AI to apply my knowledge of AI, Machine Learning, and full-stack development to solve a real-world problem.
