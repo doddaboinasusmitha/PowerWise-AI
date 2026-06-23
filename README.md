@@ -81,6 +81,28 @@ https://github.com/doddaboinasusmitha/PowerWise-AI
 
 ---
 
+## 📸 Project Screenshots
+
+### 🏠 Welcome Page
+
+![Welcome Page](screenshots/welcome.png)
+
+### 🔐 Login Page
+
+![Login Page](screenshots/login.png)
+
+### 📝 Signup Page
+
+![Signup Page](screenshots/signup.png)
+
+### ⚡ Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### 🤖 ML Prediction Result
+
+![ML Prediction](screenshots/ml-prediction.png)
+
 ## Installation and Setup
 
 ### Clone the Repository
