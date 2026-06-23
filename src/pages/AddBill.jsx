@@ -58,11 +58,11 @@ if (averageUnits > 300) {
     
     try {
   const response = await axios.post(
-    "http://127.0.0.1:5000/predict",
-    {
-      units: Number(units),
-    }
-  );
+  `${import.meta.env.VITE_API_URL}/predict`,
+  {
+    units: Number(units),
+  }
+);
 
   const predicted = response.data.predicted_bill;
 
